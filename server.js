@@ -23,7 +23,7 @@ app.use(cors());
 // http://expressjs.com/en/starter/static-files.html
 app.use(express.static('public'));
 
-app.set('views', 'views')
+app.set('views', 'app/views')
 app.set('view engine', 'ejs')
 
 // http://expressjs.com/en/starter/basic-routing.html
